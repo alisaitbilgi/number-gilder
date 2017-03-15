@@ -31,9 +31,9 @@ $ npm install number-gilder --save
 
 
     
-    Second parameter is optional and it's "1" as default.
-    Remember: Converter function also "rounds" the float part of the number (check examples "1" and "3")
-    and it returns a string, not an integer. (works for both positive and negative integer values)
+        Second parameter is optional and it's "1" as default.
+        Remember: Converter function also "rounds" the float part of the number (check examples "1" and "3")
+        and it returns a string, not an integer. (works for both positive and negative integer values)
 
 
 Extra case:
