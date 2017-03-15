@@ -1,5 +1,5 @@
 
-function Converter(number, digit = 1) {
+function Converter(number = 0, digit = 1) {
 
   if (!Number.isInteger(number)) {
     throw new Error(number + " is not integer, Please enter an integer number value");
