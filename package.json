@@ -1,0 +1,21 @@
+{
+  "name": "number-gilder",
+  "version": "1.0.0",
+  "description": "Converts big integers to more readable forms",
+  "main": "build/Converter.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "converter",
+    "integer",
+    "javascript",
+    "number",
+    "suit",
+    "alter"
+  ],
+  "author": "ali sait bilgi",
+  "license": "ISC"
+}
