@@ -30,6 +30,7 @@ $ npm install number-gilder --save
 4) Converter(trillions, 2);   //  returns -5.73t
 
 
+    
     Second parameter is optional and it's "1" as default.
     Remember: Converter function also "rounds" the float part of the number (check examples "1" and "3")
     and it returns a string, not an integer. (works for both positive and negative integer values)
@@ -43,6 +44,7 @@ Extra case:
 
     Although it's expected 10.0k as result, Converter will print 10k. This means, if the last digit
     of the floating part is "0" the Converter will ommit that to have a better view.
+    
     However, if you want to see it:
     Converter(number, 2);  // now prints 10.0k
 
