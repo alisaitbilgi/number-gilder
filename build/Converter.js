@@ -1,6 +1,7 @@
 "use strict";
 
-function Converter(number) {
+function Converter() {
+  var number = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
   var digit = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1;
 
 
