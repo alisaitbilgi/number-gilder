@@ -1,4 +1,5 @@
-export function uglifyNumber(number, digit = 1) {
+
+function Converter(number, digit = 1) {
 
   if (!Number.isInteger(number)) {
     throw new Error(number + " is not integer, Please enter an integer number value");
@@ -29,3 +30,5 @@ export function uglifyNumber(number, digit = 1) {
   return isNegative + (number / Math.pow(1000, power)).toFixed(digit) + abbrv[power - 1];
 
 }
+
+module.exports = { Converter: Converter };
