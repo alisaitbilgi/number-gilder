@@ -1,10 +1,6 @@
 "use strict";
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.uglifyNumber = uglifyNumber;
-function uglifyNumber(number) {
+function Converter(number) {
   var digit = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 1;
 
 
@@ -36,3 +32,5 @@ function uglifyNumber(number) {
 
   return isNegative + (number / Math.pow(1000, power)).toFixed(digit) + abbrv[power - 1];
 }
+
+module.exports = { Converter: Converter };
