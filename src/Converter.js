@@ -12,7 +12,7 @@ function Converter(number = 0, digit = 1) {
   digit = digit < 0 ? 0 : digit;
   number = Math.abs(number);
 
-  if (number <= 1000) {
+  if (number < 1000) {
     return number;
   }
 
